@@ -68,7 +68,7 @@ public class BinaryTree {
         inorder(node.rightNode);
     }
 
-    void test() {
+    private void test() {
         int[] array = new int[]{5, 9, 7, 2, 1, 8};
         Tree tree = new Tree();
         for (int i = 0; i < array.length; i++) {
@@ -79,7 +79,7 @@ public class BinaryTree {
         preorderByStack(tree.root);
     }
 
-    void preorderByStack(Node node) {
+    private void preorderByStack(Node node) {
         Stack<Node> stack = new Stack<Node>();
         while (node != null || stack.size() > 0) {
             if (node != null) {

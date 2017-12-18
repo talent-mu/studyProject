@@ -2,6 +2,7 @@ import java.util.Stack;
 
 /**
  * 背包问题
+ * @author zmh
  */
 public class KnapsackProblem {
     private int categorySize = 6;

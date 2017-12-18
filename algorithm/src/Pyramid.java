@@ -24,5 +24,6 @@ public class Pyramid {
 
     public static void main(String[] args) {
         print(10);
+        Integer.parseInt("");
     }
 }
